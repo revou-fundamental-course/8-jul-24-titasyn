@@ -1,1 +1,63 @@
 /* ini comment */
+
+.main-title {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-content {
+    flex: 1;
+    padding: 12px;
+}
+
+form {
+    background-color: aliceblue;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.input-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button {
+    height: 32px;
+    border-radius: 8px;
+}
+
+.submit {
+    background-color: #a5e9e9;
+    border: 2px solid rgb(169, 224, 224);
+}
+
+.reset {
+    background-color: #a5e9e9;
+    border: 2px solid rgb(169, 224, 224);
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=number]:focus {
+    border: 3px solid #e9a5c1;
+}
+
+.result-section {
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 12px;
+}
